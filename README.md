@@ -1,2 +1,14 @@
 # cal-demo
 This is a calculator program
+public class Calculator {
+public integer num1;
+    public integer num2;
+    public integer result;
+    
+    public Calculator(){
+        
+    }
+    public void add(){
+        result=num1+num2;
+        system.debug('addition result:'+result);
+    }
