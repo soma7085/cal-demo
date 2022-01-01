@@ -11,4 +11,10 @@ public integer num1;
     public void add(){
         result=num1+num2;
         system.debug('addition result:'+result);
+
+      public void sub(){
+        result= num1-num2;
+        system.debug('substraction result:'+ result);
+        
+    }  
     }
